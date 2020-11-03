@@ -3,14 +3,15 @@ import 'firebase/auth'
 import 'firebase/firestore'
 
 // firebase init - add your own config here
-const firebaseConfig = {
-    apiKey: "AIzaSyDx5pFa99nw4eL0qOvGI6lUPcSaEUHGttM",
-    authDomain: "vue-js-receipe-book.firebaseapp.com",
-    databaseURL: "https://vue-js-receipe-book.firebaseio.com",
-    projectId: "vue-js-receipe-book",
-    storageBucket: "vue-js-receipe-book.appspot.com",
-    messagingSenderId: "841103243255",
-    appId: "1:841103243255:web:ddcea5eb1accb6a07ba0f2",
+const  firebaseConfig = {
+  apiKey: "AIzaSyA13j6m9rNIUTYZa15XJ9Pl2TPQDnOlY7I",
+  authDomain: "shoppingmanager-1f26c.firebaseapp.com",
+  databaseURL: "https://shoppingmanager-1f26c.firebaseio.com",
+  projectId: "shoppingmanager-1f26c",
+  storageBucket: "shoppingmanager-1f26c.appspot.com",
+  messagingSenderId: "449166564801",
+  appId: "1:449166564801:web:f55234405b37fa04d2a340",
+  measurementId: "G-PX2W6FX7QT"
 }
 firebase.initializeApp(firebaseConfig)
 
